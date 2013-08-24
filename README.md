@@ -13,7 +13,7 @@ Fetching posts from Tumblr using Tumblr Apis - ObjectiveC project
 
     - Clone or download the Xcode project. 
     - Launch and build the project. It will show few errors. That is because we need to setup the OAuth token we previously generated.
-    - Open URLConstants.h file and replace the OAuth token you previously generated with the text "your api key".
+    - Open URLConstants.h file and replace the text "your api key" with the OAuth token you previously generated.
     - Replace the text "blog name" with the name of the blog where you want to fetch the posts.
     - Remove the #error directive from the lines above the api key and blog name directives.
 
